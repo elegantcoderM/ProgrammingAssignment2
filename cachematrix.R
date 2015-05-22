@@ -2,7 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## The below function makeCacheMatrix() caches a matrix and
+## it's inverse. It has 4 functions to set and retreive the
+## matrix and its cached inverse
 makeCacheMatrix <- function(x = matrix()) {
   invMatrix <- NULL
   set <- function(y) {
